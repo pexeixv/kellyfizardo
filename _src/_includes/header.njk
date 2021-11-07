@@ -1,0 +1,47 @@
+<section class="top_outer outer">
+    <div class="top top_inner inner">
+        <div class="top_left top_side">
+            <a class="top_item">
+                <i class="fas fa-map-marker-alt top_icon"></i>
+                <span class="top_text">
+                    Chandor, Goa
+                </span>
+            </a>
+        </div>
+        <div class="top_right top_side">
+            <a class="top_item" href="tel:91869880059">
+                <i class="fas fa-phone-alt top_icon"></i>
+                <span class="top_text">
+                    +91 869880059
+                </span>
+            </a>
+            <a class="top_item" href="mailto:kelly@fizardo.com">
+                <i class="fas fa-paper-plane top_icon"></i>
+                <span class="top_text">
+                    kelly@fizardo.com
+                </span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="header_outer outer">
+    <header class="header header_inner inner">
+        <a class="header_logo" href="#">
+            Kelly Fizardo
+        </a>
+        <nav class="header_nav">
+            {{  '<a href="#" class="nav_link nav_link-active">Home</a>'|safe 
+                    if title=='Home'
+                        else '<a href="/" class="nav_link">Home</a>'|safe }}
+
+            {{ '<a href="#" class="nav_link nav_link-active">Portfolio</a>'|safe
+                    if title=='Portfolio'
+                        else '<a href="/portfolio" class="nav_link">Portfolio</a>'|safe }}
+        </nav>
+    </header>
+</section>
+
+
+
+

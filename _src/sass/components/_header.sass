@@ -1,0 +1,46 @@
+.top_outer
+    padding: 0.7em 0
+    background: $primary
+    color: $background
+    a
+        color: $background
+.top,.top_side
+    gap: 1em
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+
+.header_outer
+    position: sticky
+    top: 0
+    background: $background
+    z-index: 8888253992
+    padding: 1em 0
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)
+.header
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+    &_logo
+        font-size: 3rem
+        font-weight: 700
+        font-family: Mathilde, serif
+    &_nav
+        display: flex
+        align-items: center
+        text-transform: uppercase
+        gap: 1em
+
+.nav_link
+    color: $text-muted
+    &-active
+        color: $primary
+
+@media screen and ( max-width: 600px )
+    .top_outer
+        padding: 1em 0
+    .top,.top_side
+        flex-direction: column
+        align-items: flex-start
