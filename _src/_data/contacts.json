@@ -1,0 +1,20 @@
+[
+    {
+        "name": "WhatsApp me",
+        "link": "//wa.me/91869880059",
+        "class1": "fab",
+        "class2": "fa-whatsapp"
+    },
+    {
+        "name": "Call me",
+        "link": "tel:91869880059",
+        "class1": "fas",
+        "class2": "fa-phone-alt"
+    },
+    {
+        "name": "eMail me",
+        "link": "mailto:info@kellyfizardo.in",
+        "class1": "fas",
+        "class2": "fa-at"
+    }
+]

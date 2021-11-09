@@ -6,6 +6,7 @@ layout: 'base.njk'
 {% include 'header.njk' %}
 
 
+
 <section class="main_outer outer">
     <main class="main main_inner inner">
         <div class="main_content">
@@ -35,4 +36,76 @@ layout: 'base.njk'
     </div>
 </section>
 
-<section style="height: 200vh"></section>
+
+<section class="about_outer outer">
+    <div class="about about_inner inner">
+        <h2 class="section_title about_title">
+            About Me
+        </h2>
+        <div class="about_content">
+            <img src="/img/person.png" alt="not Kelly Fizardo" class="about_image">
+            <div class="about_text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis eu volutpat odio facilisis mauris sit amet massa vitae tortor condimentum lacinia quis vel eros donec ac odio tempor orci dapibus ultrices in iaculis.
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="services_outer outer">
+    <div class="services services_inner inner">
+        <h2 class="section_title services_title">
+            Services
+        </h2>
+        <div class="services_grid">
+            <a class="service" id="service_1" href="/portfolio"><span class="service_text"> Product<br>Photography</span></a>
+            <a class="service" id="service_2" href="/portfolio"><span class="service_text"> Food<br>Photography</span></a>
+            <a class="service" id="service_3" href="/portfolio"><span class="service_text"> Architectural<br>Photography</span></a>
+        </div>
+    </div>
+</section>
+
+<section class="tests_outer outer">
+    <div class="tests tests_inner inner">
+        <h2 class="section_title tests_title">
+            Testimonials
+        </h2>
+        <div class="tests_grid">
+            {% for test in testimonials %}
+                <div class="test">
+                    <div class="test_detail">
+                        <img src="{{test.image}}" alt="{{test.name}}" class="test_image">
+                        <div class="test_side">
+                            <h4 class="test_name">
+                                {{test.name}}
+                            </h4>
+                            <p class="test_desgn">
+                                {{test.desgn}}
+                            </p>
+                        </div>
+                    </div>
+                    <blockquote class="test_quote">{{test.quote}}</blockquote>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+
+<section class="contact_outer outer">
+    <div class="contact contact_inner inner">
+        <h2 class="section_title contact_title">
+            Contact
+        </h2>
+        <div class="contact_grid">
+            {% for contact in contacts %}
+                <div class="contact_btn btn">
+                    <i class="{{contact.class1}} {{contact.class2}} contact_icon"></i>
+                    <span class="contact_title">{{contact.name}}</span>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+{% include 'footer.njk' %}

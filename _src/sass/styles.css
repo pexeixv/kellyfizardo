@@ -70,7 +70,6 @@ p {
   background: transparent;
   border: 3px solid #821331;
   border-radius: 8888253992px;
-  text-transform: uppercase;
   cursor: pointer;
   text-align: center;
 }
@@ -78,6 +77,18 @@ p {
 .btn:hover {
   background: #821331;
   color: #FFFFFF;
+}
+
+h2.section_title {
+  font-size: 2.5rem;
+  color: #821331;
+  position: relative;
+  margin-bottom: 1.5em;
+}
+
+h2.section_title::after {
+  content: '.';
+  position: absolute;
 }
 
 noscript div {
@@ -161,8 +172,24 @@ noscript div a {
   }
 }
 
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 0;
+}
+
+.footer_outer {
+  background: #821331;
+  color: #FFFFFF;
+}
+
+.footer_outer a {
+  color: #FFFFFF;
+}
+
 .main_outer {
-  padding: 7em 0 10em;
+  padding: 7em 0;
 }
 
 .main {
@@ -203,6 +230,30 @@ noscript div a {
   width: 100%;
 }
 
+.tests_outer {
+  padding: 6em 0 0;
+}
+
+.tests_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5em;
+}
+
+.test_detail {
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
+}
+
+.test_image {
+  border-radius: 8888253992px;
+}
+
+.test_quote {
+  margin-top: 1em;
+}
+
 .clients {
   display: flex;
   align-items: center;
@@ -212,6 +263,78 @@ noscript div a {
 
 .clients_image {
   max-height: 40px;
+}
+
+.about_outer {
+  padding: 6em 0 0;
+}
+
+.about_content {
+  display: flex;
+  align-items: flex-start;
+  gap: 4em;
+}
+
+.about_image {
+  max-width: 45%;
+}
+
+.services_outer {
+  padding: 6em 0 0;
+}
+
+.services_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+}
+
+.service {
+  text-align: center;
+  width: 100%;
+  min-height: 200px;
+  border-radius: 5px;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+  color: white;
+  font-size: 1.5rem;
+  position: relative;
+}
+
+.service_text {
+  filter: drop-shadow(0 1px 3px black);
+  z-index: 2;
+}
+
+.service::after {
+  content: '';
+  background: rgba(130, 19, 49, 0.4);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+#service_1 {
+  background: url("/img/services/product.jpg");
+}
+
+#service_2 {
+  background: url("/img/services/food.jpg");
+}
+
+#service_3 {
+  background: url("/img/services/architectural.jpg");
+}
+
+.contact_outer {
+  padding: 6em 0 4em;
+}
+
+.contact_grid {
+  display: flex;
+  grid-gap: 2em;
 }
 
 body {
