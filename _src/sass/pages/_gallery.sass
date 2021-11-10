@@ -1,0 +1,45 @@
+.gallery
+    &_title
+        margin-bottom: 0.7em !important
+    &_outer
+        padding: 5em 0 0
+    &_filters
+        display: flex
+        grid-gap: 1em
+    &_filter
+        padding: 0.5em 0.8em
+        cursor: pointer
+        outline: none
+        border: none
+        color: $text-muted
+        background: #F4F4F4
+        border-radius: 8888253992px
+        &-active
+            background: #C4C4C4
+            color: $text
+
+.gallery_grid
+    display: flex
+    margin-top: 3em
+    grid-gap: 12px
+
+.gallery_column
+    flex: 1
+    flex-grow: 1
+
+.gallery_photo
+    width: 100%
+    height: auto
+    border-radius: 10px
+    margin-bottom: 10px
+
+.gallery_column--2, .gallery_column--3
+    display: none
+
+@media ( min-width: 768px )
+    .gallery_column--2
+        display: block
+
+@media ( min-width: 1080px )
+    .gallery_column--3
+        display: block
