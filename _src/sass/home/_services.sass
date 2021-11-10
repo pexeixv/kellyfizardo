@@ -6,10 +6,18 @@
         grid-template-columns: 1fr 1fr 1fr
         grid-gap: 1em
 
+#service
+    &_1
+        background: url('/img/services/product.jpg')
+    &_2
+        background: url('/img/services/food.jpg')
+    &_3
+        background: url('/img/services/architectural.jpg')
+
 .service
     text-align: center
     width: 100%
-    min-height: 200px
+    aspect-ratio: 3/2
     border-radius: 5px
     overflow: hidden
     display: grid
@@ -20,6 +28,18 @@
     &_text
         filter: drop-shadow(0 1px 3px black)
         z-index: 2
+        position: relative
+    &:hover &_text::after
+        content: 'check\00a0photos'
+        display: block
+        position: absolute
+        text-transform: uppercase
+        font-size: 0.45em
+        margin-top: 0.5em
+        text-align: center
+        left: 50%
+        transform: translateX(-50%)
+        opacity: 0.75
     &::after
         content: ''
         background: rgba($primary, 0.4)
@@ -27,11 +47,13 @@
         height: 100%
         position: absolute
         z-index: 1
-
-#service
-    &_1
-        background: url('/img/services/product.jpg')
-    &_2
-        background: url('/img/services/food.jpg')
-    &_3
-        background: url('/img/services/architectural.jpg')
+    &_image
+        position: absolute
+        background:
+            size: cover
+            position: center center
+    &:hover
+        &::after
+            background: rgba($primary, 0.6)
+        .service_image
+            transform: scale(1.15) rotate(-5deg)

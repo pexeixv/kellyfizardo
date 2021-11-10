@@ -23,6 +23,5 @@ var filterGallery = (arg, el) => {
 }
 
 var hash = window.location.hash.substring(1)
-if (hash) {
+if (hash)
     document.querySelector(`.gallery_filter-${hash}`).click()
-}

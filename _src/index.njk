@@ -19,7 +19,9 @@ layout: 'base.njk'
             <a href="/portfolio" class="main_btn btn">View Shots</a>
         </div>
         <div class="main_hero">
-            <img src="/img/hero.png" alt="Hero" class="main_image">
+            <img src="/img/hero1.png" alt="Hero" class="main_image"  data-aos="fade-down" data-aos-delay="600">
+            <img src="/img/hero2.png" alt="Hero" class="main_image"  data-aos="fade-down" data-aos-delay="900">
+            <img src="/img/hero3.png" alt="Hero" class="main_image"  data-aos="fade-down" data-aos-delay="300">
         </div>
     </main>
 </section>
@@ -43,7 +45,7 @@ layout: 'base.njk'
             About Me
         </h2>
         <div class="about_content">
-            <img src="/img/person.png" alt="not Kelly Fizardo" class="about_image">
+            <img src="/img/person.png" alt="not Kelly Fizardo" title="not Kelly Fizardo" class="about_image">
             <div class="about_text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis eu volutpat odio facilisis mauris sit amet massa vitae tortor condimentum lacinia quis vel eros donec ac odio tempor orci dapibus ultrices in iaculis.
             </div>
@@ -58,12 +60,24 @@ layout: 'base.njk'
             Services
         </h2>
         <div class="services_grid">
-            <a class="service" id="service_1" href="/portfolio#product"><span class="service_text">Product<br>Photography</span></a>
-            <a class="service" id="service_2" href="/portfolio#food"><span class="service_text">Food<br>Photography</span></a>
-            <a class="service" id="service_3" href="/portfolio#architecture"><span class="service_text">Architectural<br>Photography</span></a>
+            <a class="service" href="/portfolio#product">
+                <img src="/img/services/product.jpg" alt="" class="service_image">
+                <span class="service_text">Product<br>Photography</span>
+            </a>
+            <a class="service" href="/portfolio#food">
+                <img src="/img/services/food.jpg" alt="" class="service_image">
+                <span class="service_text">Food<br>Photography</span>
+            </a>
+            <a class="service" href="/portfolio#architecture">
+                <img src="/img/services/architecture.jpg" alt="" class="service_image">
+                <span class="service_text">Architectural<br>Photography</span>
+            </a>
         </div>
     </div>
 </section>
+
+
+
 
 <section class="tests_outer outer">
     <div class="tests tests_inner inner">
