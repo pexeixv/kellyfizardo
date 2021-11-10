@@ -10,6 +10,7 @@ var filterGallery = (arg, el) => {
     el.classList.add('gallery_filter-active')
     if (arg === 'all') {
         images.forEach(image => image.classList.remove('hide'))
+        history.pushState(null, null, '/portfolio')
         return 0
     }
     images.forEach(image => {
@@ -18,6 +19,10 @@ var filterGallery = (arg, el) => {
         else
             image.classList.remove('hide')
     })
+    history.pushState(null, null, '#' + arg)
+}
 
-
+var hash = window.location.hash.substring(1)
+if (hash) {
+    document.querySelector(`.gallery_filter-${hash}`).click()
 }
