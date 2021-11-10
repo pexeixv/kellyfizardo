@@ -19,6 +19,8 @@ html {
 }
 
 body {
+  overflow-y: scroll;
+  overflow-x: hidden;
   width: 100%;
   font-family: Raleway, Arial, sans-serif;
   background: white;
@@ -101,6 +103,10 @@ h2.section_title {
 h2.section_title::after {
   content: '.';
   position: absolute;
+}
+
+.hide {
+  display: none;
 }
 
 noscript div {
@@ -289,11 +295,13 @@ noscript div a {
 .about_content {
   display: flex;
   align-items: flex-start;
+  align-items: center;
   gap: 4em;
 }
 
 .about_image {
   max-width: 45%;
+  border-radius: 5px;
 }
 
 .services_outer {
@@ -386,6 +394,7 @@ noscript div a {
   display: flex;
   margin-top: 3em;
   grid-gap: 12px;
+  min-height: 55vh;
 }
 
 .gallery_column {

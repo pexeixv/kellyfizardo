@@ -11,10 +11,10 @@ layout: 'base.njk'
             Portfolio
         </h2>
         <div class="gallery_filters">
-            <button class="gallery_filter gallery_filter-active">All</button>
-            <button class="gallery_filter">Products</button>
-            <button class="gallery_filter">Food</button>
-            <button class="gallery_filter">Architecture</button>
+            <button onclick="filterGallery('all',this)" class="gallery_filter gallery_filter-active">All</button>
+            <button onclick="filterGallery('product',this)" class="gallery_filter">Products</button>
+            <button onclick="filterGallery('food',this)" class="gallery_filter">Food</button>
+            <button onclick="filterGallery('architecture',this)" class="gallery_filter">Architecture</button>
         </div>
         <div class="gallery_grid">
 
@@ -23,7 +23,7 @@ layout: 'base.njk'
             <div class="gallery_column gallery_column--3"></div>
             <div class="gallery_column gallery_column--4"></div>
             {% for image in gallery %}
-                <img src="{{image.link}}" class="gallery_photo">
+                <img src="{{image.link}}" class="gallery_photo gallery_photo-{{image.category}}">
             {% endfor %}
 
         </div>
