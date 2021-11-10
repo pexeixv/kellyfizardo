@@ -15,3 +15,20 @@
         border-radius: 8888253992px
     &_quote
         margin-top: 1em
+        color: $text
+        position: relative
+        &::after
+            content: '\201D'
+            font-family: 'Times New Roman', serif
+            font-weight: 900
+            position: absolute
+            right: 15%
+            top: -90px
+            font-size: 15rem
+            color: rgba($primary,0.25)
+
+    &_name
+        font-size: 1.5rem
+        color: $primary
+    &_desgn
+        color: $text-muted

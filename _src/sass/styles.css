@@ -296,6 +296,28 @@ noscript div a {
 
 .test_quote {
   margin-top: 1em;
+  color: #2B0A13;
+  position: relative;
+}
+
+.test_quote::after {
+  content: '\201D';
+  font-family: 'Times New Roman', serif;
+  font-weight: 900;
+  position: absolute;
+  right: 15%;
+  top: -90px;
+  font-size: 15rem;
+  color: rgba(130, 19, 49, 0.25);
+}
+
+.test_name {
+  font-size: 1.5rem;
+  color: #821331;
+}
+
+.test_desgn {
+  color: #626262;
 }
 
 .clients {
@@ -318,6 +340,11 @@ noscript div a {
   align-items: flex-start;
   align-items: center;
   gap: 4em;
+}
+
+.about_text {
+  font-size: 1.1rem;
+  line-height: 1.7;
 }
 
 .about_image {
@@ -389,6 +416,8 @@ noscript div a {
 }
 
 .service_image {
+  width: 100%;
+  height: 100%;
   position: absolute;
   background-size: cover;
   background-position: center center;

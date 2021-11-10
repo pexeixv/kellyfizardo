@@ -88,7 +88,7 @@ layout: 'base.njk'
             {% for test in testimonials %}
                 <div class="test">
                     <div class="test_detail">
-                        <img src="{{test.image}}" alt="{{test.name}}" class="test_image">
+                        <img src="{{test.image}}" alt="{{test.name}}"  title="{{test.name}}" class="test_image">
                         <div class="test_side">
                             <h4 class="test_name">
                                 {{test.name}}
@@ -98,7 +98,9 @@ layout: 'base.njk'
                             </p>
                         </div>
                     </div>
-                    <blockquote class="test_quote">{{test.quote}}</blockquote>
+                    <blockquote class="test_quote">
+                        {{test.quote}}
+                    </blockquote>
                 </div>
             {% endfor %}
         </div>
