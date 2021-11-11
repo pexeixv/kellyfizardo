@@ -19,9 +19,10 @@ layout: 'base.njk'
             <a href="/portfolio" class="main_btn btn">View Shots</a>
         </div>
         <div class="main_hero">
-            <img src="/img/hero1.png" alt="Hero" class="main_image"  data-aos="fade-down" data-aos-delay="600">
-            <img src="/img/hero2.png" alt="Hero" class="main_image"  data-aos="fade-down" data-aos-delay="900">
-            <img src="/img/hero3.png" alt="Hero" class="main_image"  data-aos="fade-down" data-aos-delay="300">
+            <img src="/img/hero_blank.png" alt="" srcset="">
+            <div data-aos="fade-down" data-aos-delay="600" class="main_image_wrapper"><img src="/img/hero1.png" alt="Hero" class="main_image"></div>
+            <div data-aos="fade-down" data-aos-delay="900" class="main_image_wrapper"><img src="/img/hero2.png" alt="Hero" class="main_image"></div>
+            <div data-aos="fade-down" data-aos-delay="300" class="main_image_wrapper"><img src="/img/hero3.png" alt="Hero" class="main_image"></div>
         </div>
     </main>
 </section>
@@ -97,6 +98,7 @@ layout: 'base.njk'
                                 {{test.desgn}}
                             </p>
                         </div>
+                        <img src="/img/quote.svg" class="test_marks">
                     </div>
                     <blockquote class="test_quote">
                         {{test.quote}}
@@ -115,10 +117,10 @@ layout: 'base.njk'
         </h2>
         <div class="contact_grid">
             {% for contact in contacts %}
-                <div class="contact_btn btn">
+                <a class="contact_btn btn" href="{{contact.link}}">
                     <i class="{{contact.class1}} {{contact.class2}} contact_icon"></i>
                     <span class="contact_title">{{contact.name}}</span>
-                </div>
+                </a>
             {% endfor %}
         </div>
     </div>

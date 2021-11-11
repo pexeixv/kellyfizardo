@@ -1,13 +1,13 @@
 [
     {
         "name": "WhatsApp me",
-        "link": "//wa.me/91869880059",
+        "link": "//wa.me/918698880059",
         "class1": "fab",
         "class2": "fa-whatsapp"
     },
     {
         "name": "Call me",
-        "link": "tel:91869880059",
+        "link": "tel:918698880059",
         "class1": "fas",
         "class2": "fa-phone-alt"
     },
