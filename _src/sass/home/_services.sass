@@ -5,6 +5,10 @@
         display: grid
         grid-template-columns: 1fr 1fr 1fr
         grid-gap: 1em
+    &_btn
+        display: block
+        width: max-content
+        margin: 2em auto 0
 
 #service
     &_1
@@ -30,7 +34,7 @@
         z-index: 2
         position: relative
     &:hover &_text::after
-        content: 'check\00a0photos'
+        // content: 'check\00a0photos'
         display: block
         position: absolute
         text-transform: uppercase

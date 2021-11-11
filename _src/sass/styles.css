@@ -421,6 +421,12 @@ noscript div a {
   grid-gap: 1em;
 }
 
+.services_btn {
+  display: block;
+  width: max-content;
+  margin: 2em auto 0;
+}
+
 #service_1 {
   background: url("/img/services/product.jpg");
 }
@@ -453,7 +459,6 @@ noscript div a {
 }
 
 .service:hover .service_text::after {
-  content: 'check\00a0photos';
   display: block;
   position: absolute;
   text-transform: uppercase;
