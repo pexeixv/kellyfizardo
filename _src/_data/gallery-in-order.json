@@ -1,118 +1,8 @@
 [
     {
         "title": null,
-        "slug": "egg-potato.jpg",
-        "category": "food"
-    },
-    {
-        "title": null,
-        "slug": "copycat5.jpg",
-        "category": "product"
-    },
-    {
-        "title": null,
-        "slug": "susegad02.jpg",
-        "category": "product"
-    },
-    {
-        "title": null,
-        "slug": "pomegranate.jpg",
-        "category": "food"
-    },
-    {
-        "title": null,
-        "slug": "susegad16.jpg",
-        "category": "product"
-    },
-    {
-        "title": null,
-        "slug": "lafiesta2.jpg",
-        "category": "product"
-    },
-    {
-        "title": null,
-        "slug": "potato-fries.jpg",
-        "category": "food"
-    },
-    {
-        "title": null,
-        "slug": "susegad05.jpg",
-        "category": "product"
-    },
-    {
-        "title": null,
-        "slug": "susegad18.jpg",
-        "category": "product"
-    },
-    {
-        "title": null,
-        "slug": "susegad15.jpg",
-        "category": "product"
-    },
-    {
-        "title": null,
-        "slug": "rootree3.jpg",
-        "category": "product"
-    },
-    {
-        "title": null,
-        "slug": "copycat1.jpg",
-        "category": "product"
-    },
-    {
-        "title": null,
-        "slug": "paneer.jpg",
-        "category": "food"
-    },
-    {
-        "title": null,
-        "slug": "mario2.jpg",
-        "category": "product"
-    },
-    {
-        "title": null,
-        "slug": "copycat3.jpg",
-        "category": "product"
-    },
-    {
-        "title": null,
-        "slug": "mario1.jpg",
-        "category": "product"
-    },
-    {
-        "title": null,
-        "slug": "susegad01.jpg",
-        "category": "product"
-    },
-    {
-        "title": null,
         "slug": "bacon.jpg",
         "category": "food"
-    },
-    {
-        "title": null,
-        "slug": "watermelon-cheese.jpg",
-        "category": "food"
-    },
-    {
-        "title": null,
-        "slug": "table.jpg",
-        "category": "food"
-    },
-    {
-        "title": null,
-        "slug": "susegad07.jpg",
-        "category": "product"
-    },
-    {
-        "title": null,
-        "slug": "french-fries-chicken.jpg",
-        "category": "food"
-    },
-    {
-        "title": null,
-        "slug": "rootree2.jpg",
-        "category": "product"
     },
     {
         "title": null,
@@ -121,77 +11,7 @@
     },
     {
         "title": null,
-        "slug": "rootree5.jpg",
-        "category": "product"
-    },
-    {
-        "title": null,
-        "slug": "lafiesta3.jpg",
-        "category": "product"
-    },
-    {
-        "title": null,
-        "slug": "kebab.jpg",
-        "category": "food"
-    },
-    {
-        "title": null,
-        "slug": "copycat4.jpg",
-        "category": "product"
-    },
-    {
-        "title": null,
-        "slug": "chicken-fry-salad-2.jpg",
-        "category": "food"
-    },
-    {
-        "title": null,
-        "slug": "rootree4.jpg",
-        "category": "product"
-    },
-    {
-        "title": null,
-        "slug": "mango.jpg",
-        "category": "food"
-    },
-    {
-        "title": null,
-        "slug": "nachos-with-salad.jpg",
-        "category": "food"
-    },
-    {
-        "title": null,
-        "slug": "susegad17.jpg",
-        "category": "product"
-    },
-    {
-        "title": null,
-        "slug": "lafiesta1.jpg",
-        "category": "product"
-    },
-    {
-        "title": null,
         "slug": "cheese-nachos.jpg",
-        "category": "food"
-    },
-    {
-        "title": null,
-        "slug": "susegad14.jpg",
-        "category": "product"
-    },
-    {
-        "title": null,
-        "slug": "lamp.jpg",
-        "category": "product"
-    },
-    {
-        "title": null,
-        "slug": "teriyaki-bowl.jpg",
-        "category": "food"
-    },
-    {
-        "title": null,
-        "slug": "hummus.jpg",
         "category": "food"
     },
     {
@@ -201,8 +21,8 @@
     },
     {
         "title": null,
-        "slug": "susegad06.jpg",
-        "category": "product"
+        "slug": "chicken-fry-salad-2.jpg",
+        "category": "food"
     },
     {
         "title": null,
@@ -211,7 +31,92 @@
     },
     {
         "title": null,
-        "slug": "susegad09.jpg",
+        "slug": "doritos.jpg",
+        "category": "food"
+    },
+    {
+        "title": null,
+        "slug": "egg-potato.jpg",
+        "category": "food"
+    },
+    {
+        "title": null,
+        "slug": "egg-potato-2.jpg",
+        "category": "food"
+    },
+    {
+        "title": null,
+        "slug": "french-fries-chicken.jpg",
+        "category": "food"
+    },
+    {
+        "title": null,
+        "slug": "hummus.jpg",
+        "category": "food"
+    },
+    {
+        "title": null,
+        "slug": "kebab.jpg",
+        "category": "food"
+    },
+    {
+        "title": null,
+        "slug": "mango.jpg",
+        "category": "food"
+    },
+    {
+        "title": null,
+        "slug": "mushroom-in-olive.jpg",
+        "category": "food"
+    },
+    {
+        "title": null,
+        "slug": "nachos-with-salad.jpg",
+        "category": "food"
+    },
+    {
+        "title": null,
+        "slug": "orange.jpg",
+        "category": "food"
+    },
+    {
+        "title": null,
+        "slug": "paneer.jpg",
+        "category": "food"
+    },
+    {
+        "title": null,
+        "slug": "pineapple.jpg",
+        "category": "food"
+    },
+    {
+        "title": null,
+        "slug": "pomegranate.jpg",
+        "category": "food"
+    },
+    {
+        "title": null,
+        "slug": "potato-fries.jpg",
+        "category": "food"
+    },
+    {
+        "title": null,
+        "slug": "table.jpg",
+        "category": "food"
+    },
+    {
+        "title": null,
+        "slug": "teriyaki-bowl.jpg",
+        "category": "food"
+    },
+    {
+        "title": null,
+        "slug": "watermelon-cheese.jpg",
+        "category": "food"
+    },
+    {
+        "title": null,
+        "slug": "copycat1.jpg",
         "category": "product"
     },
     {
@@ -221,22 +126,47 @@
     },
     {
         "title": null,
-        "slug": "doritos.jpg",
-        "category": "food"
-    },
-    {
-        "title": null,
-        "slug": "rootree6.jpg",
+        "slug": "copycat3.jpg",
         "category": "product"
     },
     {
         "title": null,
-        "slug": "egg-potato-2.jpg",
-        "category": "food"
+        "slug": "copycat4.jpg",
+        "category": "product"
     },
     {
         "title": null,
-        "slug": "susegad04.jpg",
+        "slug": "copycat5.jpg",
+        "category": "product"
+    },
+    {
+        "title": null,
+        "slug": "lafiesta1.jpg",
+        "category": "product"
+    },
+    {
+        "title": null,
+        "slug": "lafiesta2.jpg",
+        "category": "product"
+    },
+    {
+        "title": null,
+        "slug": "lafiesta3.jpg",
+        "category": "product"
+    },
+    {
+        "title": null,
+        "slug": "lamp.jpg",
+        "category": "product"
+    },
+    {
+        "title": null,
+        "slug": "mario1.jpg",
+        "category": "product"
+    },
+    {
+        "title": null,
+        "slug": "mario2.jpg",
         "category": "product"
     },
     {
@@ -246,17 +176,72 @@
     },
     {
         "title": null,
+        "slug": "rootree2.jpg",
+        "category": "product"
+    },
+    {
+        "title": null,
+        "slug": "rootree3.jpg",
+        "category": "product"
+    },
+    {
+        "title": null,
+        "slug": "rootree4.jpg",
+        "category": "product"
+    },
+    {
+        "title": null,
+        "slug": "rootree5.jpg",
+        "category": "product"
+    },
+    {
+        "title": null,
+        "slug": "rootree6.jpg",
+        "category": "product"
+    },
+    {
+        "title": null,
+        "slug": "susegad01.jpg",
+        "category": "product"
+    },
+    {
+        "title": null,
+        "slug": "susegad02.jpg",
+        "category": "product"
+    },
+    {
+        "title": null,
+        "slug": "susegad03.jpg",
+        "category": "product"
+    },
+    {
+        "title": null,
+        "slug": "susegad04.jpg",
+        "category": "product"
+    },
+    {
+        "title": null,
+        "slug": "susegad05.jpg",
+        "category": "product"
+    },
+    {
+        "title": null,
+        "slug": "susegad06.jpg",
+        "category": "product"
+    },
+    {
+        "title": null,
+        "slug": "susegad07.jpg",
+        "category": "product"
+    },
+    {
+        "title": null,
         "slug": "susegad08.jpg",
         "category": "product"
     },
     {
         "title": null,
-        "slug": "susegad20.jpg",
-        "category": "product"
-    },
-    {
-        "title": null,
-        "slug": "susegad13.jpg",
+        "slug": "susegad09.jpg",
         "category": "product"
     },
     {
@@ -271,32 +256,47 @@
     },
     {
         "title": null,
-        "slug": "susegad19.jpg",
-        "category": "product"
-    },
-    {
-        "title": null,
         "slug": "susegad12.jpg",
         "category": "product"
     },
     {
         "title": null,
-        "slug": "pineapple.jpg",
-        "category": "food"
-    },
-    {
-        "title": null,
-        "slug": "susegad03.jpg",
+        "slug": "susegad13.jpg",
         "category": "product"
     },
     {
         "title": null,
-        "slug": "mushroom-in-olive.jpg",
-        "category": "food"
+        "slug": "susegad14.jpg",
+        "category": "product"
     },
     {
         "title": null,
-        "slug": "orange.jpg",
-        "category": "food"
+        "slug": "susegad15.jpg",
+        "category": "product"
+    },
+    {
+        "title": null,
+        "slug": "susegad16.jpg",
+        "category": "product"
+    },
+    {
+        "title": null,
+        "slug": "susegad17.jpg",
+        "category": "product"
+    },
+    {
+        "title": null,
+        "slug": "susegad18.jpg",
+        "category": "product"
+    },
+    {
+        "title": null,
+        "slug": "susegad19.jpg",
+        "category": "product"
+    },
+    {
+        "title": null,
+        "slug": "susegad20.jpg",
+        "category": "product"
     }
 ]

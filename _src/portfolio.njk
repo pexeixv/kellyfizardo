@@ -23,7 +23,7 @@ layout: 'base.njk'
             <div class="gallery_column gallery_column--3"></div>
             <div class="gallery_column gallery_column--4"></div>
             {% for image in gallery %}
-                <img src="{{image.link}}" class="gallery_photo gallery_photo-{{image.category}}">
+                <img loading="lazy" src="//ik.imagekit.io/gavin/kellyfizardo/{{image.category}}/tr:w-450,pr-true,q-70/{{image.slug}}" class="gallery_photo gallery_photo-{{image.category}}" data-slug="{{image.slug}}" data-category="{{image.category}}">
             {% endfor %}
 
         </div>
@@ -38,3 +38,4 @@ layout: 'base.njk'
 
 <script src="/js/colcade.js"></script>
 <script src="/js/gallery.js"></script>
+<script src="/js/lightbox.js"></script>

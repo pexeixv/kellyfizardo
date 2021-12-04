@@ -33,6 +33,7 @@
     height: auto
     border-radius: 10px
     margin-bottom: 10px
+    cursor: pointer
 
 .gallery_column--2, .gallery_column--3
     display: none
@@ -44,3 +45,20 @@
 @media ( min-width: 1000px )
     .gallery_column--3
         display: block
+
+#lightbox
+    position: fixed
+    z-index: 6969
+    top: 0
+    width: 100%
+    height: 100%
+    background: rgba(black,0.8)
+    display: none
+#lightbox.active
+    display: flex
+    justify-content: center
+    align-items: center
+
+#lightbox img
+    max-width: 90%
+    max-height: 80%

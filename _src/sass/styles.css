@@ -148,7 +148,7 @@ noscript div a {
   position: sticky;
   top: 0;
   background: #FFFFFF;
-  z-index: 8888253992;
+  z-index: 5;
   padding: 1em 0;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
 }
@@ -179,6 +179,19 @@ noscript div a {
 
 .nav_link-active {
   color: #821331;
+  position: relative;
+}
+
+.nav_link-active::after {
+  content: '';
+  height: 3px;
+  width: 10px;
+  border-radius: 8888253992px;
+  background: #821331;
+  display: block;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 3px);
 }
 
 .top_item[href]:hover .top_text {
@@ -253,7 +266,6 @@ noscript div a {
   align-items: center;
   position: relative;
   min-height: 50vh;
-  overflow: hidden;
 }
 
 .main_image_wrapper {
@@ -571,6 +583,7 @@ noscript div a {
   height: auto;
   border-radius: 10px;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 
 .gallery_column--2, .gallery_column--3 {
@@ -587,5 +600,26 @@ noscript div a {
   .gallery_column--3 {
     display: block;
   }
+}
+
+#lightbox {
+  position: fixed;
+  z-index: 6969;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: none;
+}
+
+#lightbox.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#lightbox img {
+  max-width: 90%;
+  max-height: 80%;
 }
 /*# sourceMappingURL=styles.css.map */
