@@ -1,30 +1,30 @@
 [
     {
         "id": 1,
-        "name": "Gavin Pereira",
-        "desgn": "Frontend Developer",
-        "quote": "Good fotu re you click. Very nice. I like. Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor.",
+        "name": "Gabriel Coutinho",
+        "desgn": "Developer",
+        "quote": "Kelly is one of the most talented, creative and easy-to-get-along with photographers that I have worked with. He did an amazing job and we loved how natural the pictures came out.",
         "image": "/img/testimonial/uncle.jpg"
     },
     {
         "id": 2,
-        "name": "Gavin Pereira",
-        "desgn": "Frontend Developer",
-        "quote": "Good fotu re. Very nice. I like. Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor.",
+        "name": "James Torres Silva",
+        "desgn": "Designer",
+        "quote": "Kelly was excellent to work with. He was communicative and flexible in the run up to the photo shoot, and delivered some beautiful and engaging architectural focused photography. We'd certainly recommend Kelly for anyone looking to capture urban or architectural focused imagery.",
         "image": "/img/testimonial/uncle.jpg"
     },
     {
         "id": 3,
-        "name": "Gavin Pereira",
-        "desgn": "Frontend Developer",
-        "quote": "Good fotu re. Very nice. I like. Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor.",
+        "name": "Jovito D'costa",
+        "desgn": "Marketing Head",
+        "quote": "Totally blown away by Kelly's capabilities. The guy is a total swiss army knife, able of covering any visual requirements thrown his way.",
         "image": "/img/testimonial/uncle.jpg"
     },
     {
         "id": 4,
-        "name": "Gavin Pereira",
-        "desgn": "Frontend Developer",
-        "quote": "Good fotu re. Very nice. I like. Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor.Good fotu re. Very nice. I like. Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor.",
+        "name": "Camilo Dias",
+        "desgn": "Content Writer",
+        "quote": "Kelly was timely in all communication, quick to produce cinemagraphs and an absolute professional. Above all, his style is fun, perceptive and (without direction) he made sure to incorporate and uphold our brands image and style. Highly recommend!",
         "image": "/img/testimonial/uncle.jpg"
     }
 ]

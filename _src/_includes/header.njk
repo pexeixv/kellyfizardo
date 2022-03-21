@@ -13,40 +13,30 @@
                 <i class="fas fa-phone-alt top_icon"></i>
                 <span class="top_text">+91 8698880059</span>
             </a>
-            <a class="top_item" href="mailto:kelly@fizardo.com">
+            <a class="top_item" href="mailto:kellyfizardo@gmail.com">
                 <i class="fas fa-paper-plane top_icon"></i>
-                <span class="top_text">kelly@fizardo.com</span>
+                <span class="top_text">kellyfizardo@gmail.com</span>
             </a>
         </div>
     </div>
 </section>
-
 <section class="header_outer outer">
     <header class="header header_inner inner">
-
-        {% if title!='Home'%}
+        {% if title!='Home' %}
             <a class="header_logo" href="/">
-        {% endif %}
-        
-        {% if title=='Home'%}
-            <a class="header_logo" href="#">
-        {% endif %}
-
-
-            Kelly Fizardo
-        </a>
-        <nav class="header_nav">
-            {{  '<a href="#" class="nav_link nav_link-active">Home</a>'|safe 
+            {% endif %}
+            {% if title=='Home' %}
+                <a class="header_logo" href="#">
+                {% endif %}
+                Kelly Fizardo
+            </a>
+            <nav class="header_nav">
+                {{ '<a href="#" class="nav_link nav_link-active">Home</a>'|safe 
                     if title=='Home'
                         else '<a href="/" class="nav_link">Home</a>'|safe }}
-
-            {{ '<a href="#" class="nav_link nav_link-active">Portfolio</a>'|safe
+                {{ '<a href="#" class="nav_link nav_link-active">Portfolio</a>'|safe
                     if title=='Portfolio'
                         else '<a href="/portfolio" class="nav_link">Portfolio</a>'|safe }}
-        </nav>
-    </header>
-</section>
-
-
-
-
+            </nav>
+        </header>
+    </section>
