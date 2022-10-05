@@ -11,7 +11,7 @@ layout: 'base.njk'
     <main class="main main_inner inner">
         <div class="main_content">
             <h1 class="main_title">
-                Capturing the <br> beauty in  your  <br>products.
+                Capturing the <br> beauty in your <br>products.
             </h1>
             <p class="main_desc">
                 I'm Kelly Fizardo, a product photographer from the state of Goa.
@@ -20,9 +20,12 @@ layout: 'base.njk'
         </div>
         <div class="main_hero">
             <img src="/img/hero_blank.png" alt="" srcset="">
-            <div data-aos="fade-down" data-aos-delay="600" class="main_image_wrapper"><img src="/img/hero1.png" alt="Hero" class="main_image"></div>
-            <div data-aos="fade-down" data-aos-delay="900" class="main_image_wrapper"><img src="/img/hero2.png" alt="Hero" class="main_image"></div>
-            <div data-aos="fade-down" data-aos-delay="300" class="main_image_wrapper"><img src="/img/hero3.png" alt="Hero" class="main_image"></div>
+            <div data-aos="fade-down" data-aos-delay="600" class="main_image_wrapper"><img src="/img/hero1.png"
+                    alt="Hero" class="main_image"></div>
+            <div data-aos="fade-down" data-aos-delay="900" class="main_image_wrapper"><img src="/img/hero2.png"
+                    alt="Hero" class="main_image"></div>
+            <div data-aos="fade-down" data-aos-delay="300" class="main_image_wrapper"><img src="/img/hero3.png"
+                    alt="Hero" class="main_image"></div>
         </div>
     </main>
 </section>
@@ -48,7 +51,9 @@ layout: 'base.njk'
         <div class="about_content">
             <img src="/img/kelly.jpg" alt="Kelly Fizardo" title="Kelly Fizardo" class="about_image">
             <div class="about_text">
-                Someone wise once said, <q>do it with passion or not at all</q>, which is exactly what I live by. Photography has been my passion for as long as I can remember. I'm a 20 year old product photographer with an eye for detail. I'm currently persuing Computer Science at Chowgule college.
+                Someone wise once said, <q>do it with passion or not at all</q>, which is exactly what I live by.
+                Photography has been my passion for as long as I can remember. I'm a 21 year old product photographer
+                with an eye for detail.
             </div>
         </div>
     </div>
@@ -88,23 +93,23 @@ layout: 'base.njk'
         </h2>
         <div class="tests_grid">
             {% for test in testimonials %}
-                <div class="test">
-                    <div class="test_detail">
-                        <img src="{{test.image}}" alt="{{test.name}}"  title="{{test.name}}" class="test_image">
-                        <div class="test_side">
-                            <h4 class="test_name">
-                                {{test.name}}
-                            </h4>
-                            <p class="test_desgn">
-                                {{test.desgn}}
-                            </p>
-                        </div>
-                        <img src="/img/quote.svg" class="test_marks">
+            <div class="test">
+                <div class="test_detail">
+                    <img src="{{test.image}}" alt="{{test.name}}" title="{{test.name}}" class="test_image">
+                    <div class="test_side">
+                        <h4 class="test_name">
+                            {{test.name}}
+                        </h4>
+                        <p class="test_desgn">
+                            {{test.desgn}}
+                        </p>
                     </div>
-                    <blockquote class="test_quote">
-                        {{test.quote}}
-                    </blockquote>
+                    <img src="/img/quote.svg" class="test_marks">
                 </div>
+                <blockquote class="test_quote">
+                    {{test.quote}}
+                </blockquote>
+            </div>
             {% endfor %}
         </div>
     </div>
@@ -118,10 +123,10 @@ layout: 'base.njk'
         </h2>
         <div class="contact_grid">
             {% for contact in contacts %}
-                <a class="contact_btn btn" href="{{contact.link}}">
-                    <i class="{{contact.class1}} {{contact.class2}} contact_icon"></i>
-                    <span class="contact_title">{{contact.name}}</span>
-                </a>
+            <a class="contact_btn btn" href="{{contact.link}}">
+                <i class="{{contact.class1}} {{contact.class2}} contact_icon"></i>
+                <span class="contact_title">{{contact.name}}</span>
+            </a>
             {% endfor %}
         </div>
     </div>
