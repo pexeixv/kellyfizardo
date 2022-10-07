@@ -1,8 +1,28 @@
 [
     {
         "title": null,
+        "slug": "Nanu_clean1.jpg",
+        "category": "product"
+    },
+    {
+        "title": null,
+        "slug": "vaum-tonic-4.jpg",
+        "category": "product"
+    },
+    {
+        "title": null,
         "slug": "egg-potato.jpg",
         "category": "food"
+    },
+    {
+        "title": null,
+        "slug": "Nanu_clean2.jpg",
+        "category": "product"
+    },
+    {
+        "title": null,
+        "slug": "Nanu_clean3.jpg",
+        "category": "product"
     },
     {
         "title": null,
@@ -27,11 +47,6 @@
     {
         "title": null,
         "slug": "rootree1.jpg",
-        "category": "product"
-    },
-    {
-        "title": null,
-        "slug": "vaum-tonic-4.jpg",
         "category": "product"
     },
     {
